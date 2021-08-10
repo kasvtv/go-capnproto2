@@ -1,13 +1,17 @@
-func (s {{.Node.Name}}) {{.Field.Name|title}}() ({{.FieldType}}, error) {
+func (s {{.Node.Name}}) {{.Field.Name|title}}() {{if .Default.IsValid -}} {{.FieldType}} {{- else -}} ({{.FieldType}}, error) {{- end}}{
 	{{template "_checktag" . -}}
-	p, err := s.Struct.Ptr({{.Field.Slot.Offset}})
 	{{if .Default.IsValid -}}
+  if !s.Has{{.Field.Name|title}}() {
+    s.New{{.Field.Name|title}}()
+  }
+  p, _ := s.Struct.Ptr({{.Field.Slot.Offset}})
+	ss, _ := p.StructDefault({{.Default}})
+	return {{.FieldType}}{Struct: ss}
+	{{- else -}}
+  p, err := s.Struct.Ptr({{.Field.Slot.Offset}})
 	if err != nil {
 		return {{.FieldType}}{}, err
 	}
-	ss, err := p.StructDefault({{.Default}})
-	return {{.FieldType}}{Struct: ss}, err
-	{{- else -}}
 	return {{.FieldType}}{Struct: p.Struct()}, err
 	{{- end}}
 }
@@ -30,4 +34,3 @@ func (s {{.Node.Name}}) New{{.Field.Name|title}}() ({{.FieldType}}, error) {
 	err = s.Struct.SetPtr({{.Field.Slot.Offset}}, ss.Struct.ToPtr())
 	return ss, err
 }
-

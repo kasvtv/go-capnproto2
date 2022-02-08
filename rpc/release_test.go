@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"golang.org/x/net/context"
-	"github.com/MadBase/go-capnproto2/v2"
-	"github.com/MadBase/go-capnproto2/v2/rpc"
-	"github.com/MadBase/go-capnproto2/v2/rpc/internal/logtransport"
-	"github.com/MadBase/go-capnproto2/v2/rpc/internal/pipetransport"
-	"github.com/MadBase/go-capnproto2/v2/rpc/internal/testcapnp"
-	"github.com/MadBase/go-capnproto2/v2/server"
+	"github.com/kasvtv/go-capnproto2/v2"
+	"github.com/kasvtv/go-capnproto2/v2/rpc"
+	"github.com/kasvtv/go-capnproto2/v2/rpc/internal/logtransport"
+	"github.com/kasvtv/go-capnproto2/v2/rpc/internal/pipetransport"
+	"github.com/kasvtv/go-capnproto2/v2/rpc/internal/testcapnp"
+	"github.com/kasvtv/go-capnproto2/v2/server"
 )
 
 func TestRelease(t *testing.T) {

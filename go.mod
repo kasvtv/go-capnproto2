@@ -1,4 +1,4 @@
-module github.com/MadBase/go-capnproto2/v2
+module github.com/kasvtv/go-capnproto2/v2
 
 go 1.17
 

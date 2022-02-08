@@ -5,9 +5,9 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/MadBase/go-capnproto2/v2"
-	"github.com/MadBase/go-capnproto2/v2/internal/nodemap"
-	"github.com/MadBase/go-capnproto2/v2/internal/schema"
+	"github.com/kasvtv/go-capnproto2/v2"
+	"github.com/kasvtv/go-capnproto2/v2/internal/nodemap"
+	"github.com/kasvtv/go-capnproto2/v2/internal/schema"
 )
 
 // Insert copies val, a pointer to a Go struct, into s.

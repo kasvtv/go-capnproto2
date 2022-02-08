@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/MadBase/go-capnproto2/v2"
+	"github.com/kasvtv/go-capnproto2/v2"
 )
 
 // A RefCount will close its underlying client once all its references are closed.

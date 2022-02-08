@@ -8,7 +8,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/MadBase/go-capnproto2/v2/internal/packed"
+	"github.com/kasvtv/go-capnproto2/v2/internal/packed"
 )
 
 // Security limits. Matches C++ implementation.

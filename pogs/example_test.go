@@ -3,9 +3,9 @@ package pogs_test
 import (
 	"fmt"
 
-	"github.com/MadBase/go-capnproto2/v2"
-	"github.com/MadBase/go-capnproto2/v2/internal/demo/books"
-	"github.com/MadBase/go-capnproto2/v2/pogs"
+	"github.com/kasvtv/go-capnproto2/v2"
+	"github.com/kasvtv/go-capnproto2/v2/internal/demo/books"
+	"github.com/kasvtv/go-capnproto2/v2/pogs"
 )
 
 var bookData = []byte{

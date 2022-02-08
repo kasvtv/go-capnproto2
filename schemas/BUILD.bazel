@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["schemas.go"],
-    importpath = "github.com/MadBase/go-capnproto2/v2/schemas",
+    importpath = "github.com/kasvtv/go-capnproto2/v2/schemas",
     visibility = ["//visibility:public"],
     deps = ["//internal/packed:go_default_library"],
 )

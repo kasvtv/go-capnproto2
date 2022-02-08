@@ -484,4 +484,4 @@ struct CodeGeneratorRequest {
 }
 using Go = import "/go.capnp";
 $Go.package("schema");
-$Go.import("github.com/MadBase/go-capnproto2/v2/std/capnp/schema");
+$Go.import("github.com/kasvtv/go-capnproto2/v2/std/capnp/schema");

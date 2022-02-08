@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/MadBase/go-capnproto2/v2"
-	air "github.com/MadBase/go-capnproto2/v2/internal/aircraftlib"
+	"github.com/kasvtv/go-capnproto2/v2"
+	air "github.com/kasvtv/go-capnproto2/v2/internal/aircraftlib"
 )
 
 type Z struct {

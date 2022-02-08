@@ -169,4 +169,4 @@ struct JoinResult {
 }
 using Go = import "/go.capnp";
 $Go.package("rpctwoparty");
-$Go.import("github.com/MadBase/go-capnproto2/v2/std/capnp/rpctwoparty");
+$Go.import("github.com/kasvtv/go-capnproto2/v2/std/capnp/rpctwoparty");

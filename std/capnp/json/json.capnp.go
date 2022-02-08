@@ -5,9 +5,9 @@ package json
 import (
 	math "math"
 	strconv "strconv"
-	capnp "github.com/MadBase/go-capnproto2/v2"
-	text "github.com/MadBase/go-capnproto2/v2/encoding/text"
-	schemas "github.com/MadBase/go-capnproto2/v2/schemas"
+	capnp "github.com/kasvtv/go-capnproto2/v2"
+	text "github.com/kasvtv/go-capnproto2/v2/encoding/text"
+	schemas "github.com/kasvtv/go-capnproto2/v2/schemas"
 )
 
 type JsonValue struct{ capnp.Struct }

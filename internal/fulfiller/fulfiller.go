@@ -6,8 +6,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/MadBase/go-capnproto2/v2"
-	"github.com/MadBase/go-capnproto2/v2/internal/queue"
+	"github.com/kasvtv/go-capnproto2/v2"
+	"github.com/kasvtv/go-capnproto2/v2/internal/queue"
 )
 
 // callQueueSize is the maximum number of pending calls.

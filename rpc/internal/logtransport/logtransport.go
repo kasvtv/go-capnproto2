@@ -7,10 +7,10 @@ import (
 	"log"
 
 	"golang.org/x/net/context"
-	"github.com/MadBase/go-capnproto2/v2/encoding/text"
-	"github.com/MadBase/go-capnproto2/v2/rpc"
-	"github.com/MadBase/go-capnproto2/v2/rpc/internal/logutil"
-	rpccapnp "github.com/MadBase/go-capnproto2/v2/std/capnp/rpc"
+	"github.com/kasvtv/go-capnproto2/v2/encoding/text"
+	"github.com/kasvtv/go-capnproto2/v2/rpc"
+	"github.com/kasvtv/go-capnproto2/v2/rpc/internal/logutil"
+	rpccapnp "github.com/kasvtv/go-capnproto2/v2/std/capnp/rpc"
 )
 
 type transport struct {

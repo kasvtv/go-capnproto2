@@ -1399,4 +1399,4 @@ using JoinResult = AnyPointer;
 # }
 using Go = import "/go.capnp";
 $Go.package("rpc");
-$Go.import("github.com/MadBase/go-capnproto2/v2/std/capnp/rpc");
+$Go.import("github.com/kasvtv/go-capnproto2/v2/std/capnp/rpc");

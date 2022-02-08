@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/MadBase/go-capnproto2/v2"
-	rpccapnp "github.com/MadBase/go-capnproto2/v2/std/capnp/rpc"
+	"github.com/kasvtv/go-capnproto2/v2"
+	rpccapnp "github.com/kasvtv/go-capnproto2/v2/std/capnp/rpc"
 )
 
 // An Exception is a Cap'n Proto RPC error.

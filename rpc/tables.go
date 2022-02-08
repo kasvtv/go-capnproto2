@@ -3,8 +3,8 @@ package rpc
 import (
 	"errors"
 
-	"github.com/MadBase/go-capnproto2/v2"
-	"github.com/MadBase/go-capnproto2/v2/rpc/internal/refcount"
+	"github.com/kasvtv/go-capnproto2/v2"
+	"github.com/kasvtv/go-capnproto2/v2/rpc/internal/refcount"
 )
 
 // Table IDs

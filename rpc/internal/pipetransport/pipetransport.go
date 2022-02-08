@@ -7,9 +7,9 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"github.com/MadBase/go-capnproto2/v2"
-	"github.com/MadBase/go-capnproto2/v2/rpc"
-	rpccapnp "github.com/MadBase/go-capnproto2/v2/std/capnp/rpc"
+	"github.com/kasvtv/go-capnproto2/v2"
+	"github.com/kasvtv/go-capnproto2/v2/rpc"
+	rpccapnp "github.com/kasvtv/go-capnproto2/v2/std/capnp/rpc"
 )
 
 type pipeTransport struct {

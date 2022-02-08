@@ -8,11 +8,11 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/MadBase/go-capnproto2/v2"
-	"github.com/MadBase/go-capnproto2/v2/internal/nodemap"
-	"github.com/MadBase/go-capnproto2/v2/internal/schema"
-	"github.com/MadBase/go-capnproto2/v2/internal/strquote"
-	"github.com/MadBase/go-capnproto2/v2/schemas"
+	"github.com/kasvtv/go-capnproto2/v2"
+	"github.com/kasvtv/go-capnproto2/v2/internal/nodemap"
+	"github.com/kasvtv/go-capnproto2/v2/internal/schema"
+	"github.com/kasvtv/go-capnproto2/v2/internal/strquote"
+	"github.com/kasvtv/go-capnproto2/v2/schemas"
 )
 
 // Marker strings.

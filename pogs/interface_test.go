@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"golang.org/x/net/context"
-	"github.com/MadBase/go-capnproto2/v2"
-	air "github.com/MadBase/go-capnproto2/v2/internal/aircraftlib"
+	"github.com/kasvtv/go-capnproto2/v2"
+	air "github.com/kasvtv/go-capnproto2/v2/internal/aircraftlib"
 )
 
 type simpleEcho struct{}

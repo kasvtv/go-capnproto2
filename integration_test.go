@@ -11,9 +11,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/MadBase/go-capnproto2/v2"
-	air "github.com/MadBase/go-capnproto2/v2/internal/aircraftlib"
-	"github.com/MadBase/go-capnproto2/v2/internal/capnptool"
+	"github.com/kasvtv/go-capnproto2/v2"
+	air "github.com/kasvtv/go-capnproto2/v2/internal/aircraftlib"
+	"github.com/kasvtv/go-capnproto2/v2/internal/capnptool"
 )
 
 // A marshalTest tests whether a message can be encoded then read by the

@@ -1,5 +1,5 @@
 // Package rpc implements the Cap'n Proto RPC protocol.
-package rpc // import "zombiezen.com/go/capnproto2/rpc"
+package rpc // import "github.com/MadBase/go-capnproto2/v2/rpc"
 
 import (
 	"fmt"
@@ -7,9 +7,9 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/rpc/internal/refcount"
-	rpccapnp "zombiezen.com/go/capnproto2/std/capnp/rpc"
+	"github.com/MadBase/go-capnproto2/v2"
+	"github.com/MadBase/go-capnproto2/v2/rpc/internal/refcount"
+	rpccapnp "github.com/MadBase/go-capnproto2/v2/std/capnp/rpc"
 )
 
 // A Conn is a connection to another Cap'n Proto vat.

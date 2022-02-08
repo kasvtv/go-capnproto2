@@ -11,9 +11,9 @@ import (
 	"time"
 	"unsafe"
 
-	"zombiezen.com/go/capnproto2"
-	air "zombiezen.com/go/capnproto2/internal/aircraftlib"
-	"zombiezen.com/go/capnproto2/internal/capnptool"
+	"github.com/MadBase/go-capnproto2/v2"
+	air "github.com/MadBase/go-capnproto2/v2/internal/aircraftlib"
+	"github.com/MadBase/go-capnproto2/v2/internal/capnptool"
 )
 
 // A marshalTest tests whether a message can be encoded then read by the
@@ -1325,11 +1325,8 @@ func TestDefaultStructField(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	a, err := root.AWithDefault()
+	a := root.AWithDefault()
 
-	if err != nil {
-		t.Error("StackingRoot.aWithDefault error:", err)
-	}
 	if a.Num() != 42 {
 		t.Errorf("StackingRoot.aWithDefault = %d; want 42", a.Num())
 	}
@@ -1779,9 +1776,7 @@ func TestReadDefaults(t *testing.T) {
 	} else if !bytes.Equal(b, []byte("foo")) {
 		t.Errorf("d.TextBytes() = %q; want \"foo\"", b)
 	}
-	if b, err := d.Data(); err != nil {
-		t.Errorf("d.Data() error: %v", err)
-	} else if !bytes.Equal(b, []byte("bar")) {
+	if b := d.Data(); !bytes.Equal(b, []byte("bar")) {
 		t.Errorf("d.Data() = %q; want \"bar\"", b)
 	}
 	if f := d.Float(); f != 3.14 {
@@ -2240,10 +2235,7 @@ func TestSetNilBlobWithDefault(t *testing.T) {
 	if !d.HasData() {
 		t.Error("d.HasData() = false; want true")
 	}
-	blob, err := d.Data()
-	if err != nil {
-		t.Errorf("d.Data(): %v", err)
-	}
+	blob := d.Data()
 	if len(blob) != 0 {
 		t.Errorf("d.Data() = %v; want zero length", blob)
 	}

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["queue.go"],
-    importpath = "zombiezen.com/go/capnproto2/internal/queue",
+    importpath = "github.com/MadBase/go-capnproto2/v2/internal/queue",
     visibility = ["//:__subpackages__"],
 )
 

@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/schema"
-	"zombiezen.com/go/capnproto2/schemas"
+	"github.com/MadBase/go-capnproto2/v2"
+	"github.com/MadBase/go-capnproto2/v2/internal/schema"
+	"github.com/MadBase/go-capnproto2/v2/schemas"
 )
 
 func readTestFile(name string) ([]byte, error) {

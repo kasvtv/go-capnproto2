@@ -12,7 +12,7 @@ go_library(
         "tables.go",
         "transport.go",
     ],
-    importpath = "zombiezen.com/go/capnproto2/rpc",
+    importpath = "github.com/MadBase/go-capnproto2/v2/rpc",
     visibility = ["//visibility:public"],
     deps = [
         "//:go_default_library",

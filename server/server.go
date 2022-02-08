@@ -1,6 +1,6 @@
 // Package server provides runtime support for implementing Cap'n Proto
 // interfaces locally.
-package server // import "zombiezen.com/go/capnproto2/server"
+package server // import "github.com/MadBase/go-capnproto2/v2/server"
 
 import (
 	"errors"
@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/fulfiller"
+	"github.com/MadBase/go-capnproto2/v2"
+	"github.com/MadBase/go-capnproto2/v2/internal/fulfiller"
 )
 
 // A Method describes a single method on a server object.

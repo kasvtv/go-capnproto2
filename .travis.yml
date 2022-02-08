@@ -1,5 +1,5 @@
 language: go
-go_import_path: zombiezen.com/go/capnproto2
+go_import_path: github.com/MadBase/go-capnproto2/v2
 go:
 - 1.x
 install: _travis/install.bash

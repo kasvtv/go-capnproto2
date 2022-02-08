@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"zombiezen.com/go/capnproto2/internal/schema"
+	"github.com/MadBase/go-capnproto2/v2/internal/schema"
 )
 
 type fieldProps struct {

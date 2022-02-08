@@ -18,7 +18,7 @@ import (
 	"strings"
 	"sync"
 
-	"zombiezen.com/go/capnproto2/internal/packed"
+	"github.com/MadBase/go-capnproto2/v2/internal/packed"
 )
 
 // A Schema is a collection of schema nodes parsed by the capnp tool.

@@ -1,10 +1,10 @@
 package rpc
 
 import (
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/fulfiller"
-	"zombiezen.com/go/capnproto2/rpc/internal/refcount"
-	rpccapnp "zombiezen.com/go/capnproto2/std/capnp/rpc"
+	"github.com/MadBase/go-capnproto2/v2"
+	"github.com/MadBase/go-capnproto2/v2/internal/fulfiller"
+	"github.com/MadBase/go-capnproto2/v2/rpc/internal/refcount"
+	rpccapnp "github.com/MadBase/go-capnproto2/v2/std/capnp/rpc"
 )
 
 // While the code below looks repetitive, resist the urge to refactor.

@@ -1,7 +1,7 @@
 // +build gofuzz
 
 // Fuzz test harness.  To run:
-// go-fuzz-build zombiezen.com/go/capnproto2/internal/packed
+// go-fuzz-build github.com/MadBase/go-capnproto2/v2/internal/packed
 // go-fuzz -bin=packed-fuzz.zip -workdir=internal/packed/testdata
 
 package packed

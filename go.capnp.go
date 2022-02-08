@@ -3,7 +3,7 @@
 package capnp
 
 import (
-	schemas "zombiezen.com/go/capnproto2/schemas"
+	schemas "github.com/MadBase/go-capnproto2/v2/schemas"
 )
 
 const Package = uint64(0xbea97f1023792be0)

@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"zombiezen.com/go/capnproto2"
-	rpccapnp "zombiezen.com/go/capnproto2/std/capnp/rpc"
+	"github.com/MadBase/go-capnproto2/v2"
+	rpccapnp "github.com/MadBase/go-capnproto2/v2/std/capnp/rpc"
 )
 
 // Transport is the interface that abstracts sending and receiving

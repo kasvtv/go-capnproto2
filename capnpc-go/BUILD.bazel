@@ -9,7 +9,7 @@ go_library(
         "templateparams.go",
         "templates.go",
     ],
-    importpath = "zombiezen.com/go/capnproto2/capnpc-go",
+    importpath = "github.com/MadBase/go-capnproto2/v2/capnpc-go",
     visibility = ["//visibility:private"],
     deps = [
         "//:go_default_library",

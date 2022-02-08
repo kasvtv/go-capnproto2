@@ -4,10 +4,10 @@ package hashes
 
 import (
 	context "golang.org/x/net/context"
-	capnp "zombiezen.com/go/capnproto2"
-	text "zombiezen.com/go/capnproto2/encoding/text"
-	schemas "zombiezen.com/go/capnproto2/schemas"
-	server "zombiezen.com/go/capnproto2/server"
+	capnp "github.com/MadBase/go-capnproto2/v2"
+	text "github.com/MadBase/go-capnproto2/v2/encoding/text"
+	schemas "github.com/MadBase/go-capnproto2/v2/schemas"
+	server "github.com/MadBase/go-capnproto2/v2/server"
 )
 
 type HashFactory struct{ Client capnp.Client }

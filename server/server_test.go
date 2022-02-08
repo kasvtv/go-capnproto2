@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"golang.org/x/net/context"
-	air "zombiezen.com/go/capnproto2/internal/aircraftlib"
-	. "zombiezen.com/go/capnproto2/server"
+	air "github.com/MadBase/go-capnproto2/v2/internal/aircraftlib"
+	. "github.com/MadBase/go-capnproto2/v2/server"
 )
 
 type echoImpl struct{}

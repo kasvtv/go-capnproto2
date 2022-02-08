@@ -1,7 +1,7 @@
 load("@bazel_gazelle//:def.bzl", "gazelle")
 load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 
-# gazelle:prefix zombiezen.com/go/capnproto2
+# gazelle:prefix github.com/MadBase/go-capnproto2/v2
 gazelle(
     name = "gazelle",
     command = "fix",
@@ -26,7 +26,7 @@ go_library(
         "strings.go",
         "struct.go",
     ],
-    importpath = "zombiezen.com/go/capnproto2",
+    importpath = "github.com/MadBase/go-capnproto2/v2",
     visibility = ["//visibility:public"],
     deps = [
         "//internal/packed:go_default_library",

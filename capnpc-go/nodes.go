@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/schema"
+	"github.com/MadBase/go-capnproto2/v2"
+	"github.com/MadBase/go-capnproto2/v2/internal/schema"
 )
 
 type node struct {

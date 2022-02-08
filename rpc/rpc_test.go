@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	"golang.org/x/net/context"
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/rpc"
-	"zombiezen.com/go/capnproto2/rpc/internal/logtransport"
-	"zombiezen.com/go/capnproto2/rpc/internal/pipetransport"
-	rpccapnp "zombiezen.com/go/capnproto2/std/capnp/rpc"
+	"github.com/MadBase/go-capnproto2/v2"
+	"github.com/MadBase/go-capnproto2/v2/rpc"
+	"github.com/MadBase/go-capnproto2/v2/rpc/internal/logtransport"
+	"github.com/MadBase/go-capnproto2/v2/rpc/internal/pipetransport"
+	rpccapnp "github.com/MadBase/go-capnproto2/v2/std/capnp/rpc"
 )
 
 const (
